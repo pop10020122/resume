@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Information</title>
+    <script src="https://kit.fontawesome.com/85b4ce6da2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale-1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <link rel="stylesheet" href="css/aos.css">
+</head>
+
+<style>
+    
+    body {background-color: antiquewhite;}
+    
+    /*<!--       ------------------------상단 아이콘---------------------------------->*/
+        #top_bar {
+            position: fixed;
+            padding-top: 20px;
+            top: 0px;
+            width: 100%;
+        }
+        
+        #top_bar ul li {
+            float: left;
+            font: 18px/1.05 Italiana;
+            transition: all 0.2s;
+        }
+        
+        #top_bar ul li:hover {
+            transform: scale(1.2);
+        }
+        
+        #top_bar .top_left {
+            padding-left: 45px;
+        }
+        
+        #top_bar .top_right {
+            position: absolute;
+            right: 50px;
+        }
+        
+        #top_bar .top_right li {
+            margin-left: 33px;
+        }
+        
+        #top_bar:after {
+            content: ''; 
+            display: block; 
+            clear: both;
+        }
+    
+    
+    
+/*<!--        -------------------------------------------------------------------->*/
+    
+    
+    
+        #profile {
+            max-width: 800px;
+            margin: 0 auto;
+            margin-top: 180px;
+        }
+        #profile img {
+            width: 280px;
+            _margin-top: 120px;
+            margin-right: 9%;
+            float: left;
+        }
+        #profile:after {
+            content: ''; 
+            display: block; 
+            clear: both;
+        }
+        .PI {padding-top: 115px; font: 17px/1.6 Noto Sans KR; color: #333;}
+    
+        .PI li:first-child span {
+            font: 20px/1.05 Italiana;
+        }
+    
+        #PI {
+            width: 900px;
+            margin: 0 auto;
+            padding-top: 150px;
+            text-align: center;
+            font: 17px/1.6 Noto Sans KR;
+        }
+            
+            
+    
+/*<!--        -------------------------------------------------------------------->*/
+    
+    
+    
+        #SI {
+            width: 900px;
+            margin: 0 auto;
+        }
+        #SI ul:first-child {
+            margin-top: 120px;
+            margin-bottom: 80px;
+        }
+        #SI li {
+            font: 17px/1.6 Noto Sans KR;
+            color: #222;
+        }
+        #SI h3 {
+            font: 18px/1.6 Noto Sans KR;
+            margin-bottom: -20px;
+        }
+    
+    
+    
+    
+    
+        #skill {
+            padding-top: 150px;
+        }
+        #skill h1 {
+            text-align: center; 
+            font: 90px/1.0 Italiana;
+        }
+        #skill .tools {
+            max-width: 900px;
+            text-align: center;
+            margin: 90px auto;
+        }
+        #skill .tools li {
+            width: 20%; 
+            float: left;
+            margin: 0 auto;
+        }
+        #skill .tools li a img{
+            width: 90px;
+            transition: all 0.2s;
+        }
+        #skill .tools li a img:hover {
+            transform: scale(1.2);
+        }
+        #skill .tools:after {
+            content: ''; 
+            display: block; 
+            clear: both;
+        }
+    
+        .percentage {
+            max-width: 900px;
+            text-align: center;
+            margin: -10px auto;
+        }
+    
+        .percentage li {
+            width: 20%;
+            float: left;
+            margin: 0 auto;
+            font-size: 16px;
+        }
+    
+    
+    
+    /*        ------------------이력------------------*/
+        #history {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding-top: 100px;
+            font: 16px/1.6 Noto Sans KR;
+        }
+        
+        #history h1 {
+            text-align: center; 
+            font: 90px/ 1.0 Italiana;
+        }
+        
+        #history p {
+            margin: 50px 0 22px 0;
+            text-align: center;
+            color: #333;
+            font-size: 17px;
+        }
+        
+    
+/*        -----------------more---------------------*/
+        #more {margin: 0 auto; padding-top: 80px;}
+        #more p {text-align: center;}
+        #more i {display: none; font-size: 25px; _cursor: pointer; _margin-bottom: 65px;}
+/*        .more i:hover {transform: scale(1.1); transition: 0.2s;}*/
+    
+    
+/*        ----------------extra--------------------*/
+        #extra {
+            max-width: 1000px;
+            margin: 0 auto;
+            _text-align: center;
+            margin-bottom: 110px;
+            font: 16px/1.6 Noto Sans KR;
+        }
+        
+/*
+        #extra .more {
+            font-size: 25px;
+        }
+*/
+        
+        #extra p {
+            margin: 50px 0 22px 0;
+            text-align: center;
+            font-size: 17px;
+            color: #333;
+        }
+        
+        #extra p:nth-child(2) {
+            margin-top: 80px;
+        }
+    
+
+/*        ------------------테이블------------------*/
+        h3 {
+            text-align: center;
+            height: 80px;
+            line-height: 80px;
+            font-size: 25px;
+        }
+        div.table_layout {
+            width: 90%;
+            margin: 0 auto;
+        }
+        div.table_layout ul {
+            display: none;
+        }
+        div.table_layout ul.list {
+            display: table;
+            width: 100%;
+        }
+        div.table_layout ul.list > li {
+            display: table-row;
+        }
+        div.table_layout ul.list > li > div {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            padding: 5px;
+        }
+        .table_layout .table_th > div {
+            border-top: 3px solid #333;
+            border-bottom: 1px solid #e0e0e0;
+            background-color: rgba(222, 184, 135,0.5);
+            height: 55px;
+            font-size: 17px;
+            _font-weight: bold;
+            color: #333;
+        }
+        .table_layout .table_tr > div {
+            height: 50px;
+            border-bottom: 1px solid rgba(222, 184, 135,0.5);
+            color: #333;
+        }
+        .table_layout .subject {
+            text-align: left !important;
+        }
+    
+    
+
+/*
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------------------------------------------------->
+<!--        --------------------------------------------------------------------
+<!--       ------------------------- 모바일 ver --------------------------------->
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------------------------------------------------->
+*/
+        
+        
+        
+        
+        
+        /*-----------------------------------------------------------------*/
+        
+        /* ipad가로, ipadpro가로/세로, gallaxyTab가로 */
+        @media all and (max-width: 1065px) and (min-width: 801px){
+            
+            #profile {
+                max-width: 80%;
+                margin: 0 auto;
+                margin-top: 180px;
+            }
+            #profile img {
+                width: 280px;
+                _margin-top: 120px;
+                margin-right: 9%;
+                float: left;
+            }
+            #profile:after {
+                content: ''; 
+                display: block; 
+                clear: both;
+            }
+            .PI {padding-top: 115px; font: 17px/1.6 Noto Sans KR;}
+
+            #PI {
+                width: 900px;
+                margin: 0 auto;
+                padding-top: 150px;
+                text-align: center;
+                font: 17px/1.6 Noto Sans KR;
+            }
+    
+    
+    
+            #SI {
+                width: 88%;
+                margin: 0 auto;
+            }
+            #SI ul:first-child {
+                margin-top: 120px;
+                margin-bottom: 80px;
+            }
+            #SI li {
+                font: 17px/1.6 Noto Sans KR;
+            }
+            #SI h3 {
+                font: 17px/1.6 Noto Sans KR;
+                margin-bottom: -20px;
+            }
+            
+            
+            
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+         
+        /*-----------------------------------------------------------------*/
+        
+        /* mobile */
+        @media screen and (max-width: 800px){
+            
+            #profile {
+                max-width: 800px;
+                margin-top: 180px;
+            }
+            #profile img {
+                width: 280px;
+                margin: 0 auto;
+                float: none;
+                display: block;
+            }
+/*
+            #profile:after {
+                content: ''; 
+                display: block; 
+                clear: both;
+            }
+*/
+            .PI {
+                padding-top: 65px; 
+                text-align: center;
+                font: 16px/1.6 Noto Sans KR;
+            }
+        
+          
+        
+            #PI {
+                width: 900px;
+                margin: 0 auto;
+                padding-top: 150px;
+                text-align: center;
+                font: 16px/1.6 Noto Sans KR;
+            }
+    
+        
+    
+            #SI {
+                width: 88%;
+                margin: 0 auto;
+            }
+            #SI ul:first-child {
+                margin-top: 110px;
+                margin-bottom: 70px;
+            }
+            #SI li {
+                font: 16px/1.6 Noto Sans KR;
+            }
+            #SI h3 {
+                font: 17px/1.6 Noto Sans KR;
+                margin-bottom: -20px;
+            }
+            
+            
+            
+            
+            #skill {
+                padding-top: 150px;
+            }
+            #skill h1 {
+                text-align: center; 
+                font: 90px/1.0 Italiana;
+            }
+            #skill .tools {
+                max-width: 80%;
+                text-align: center;
+                margin: 60px auto 50px;
+            }
+            #skill .tools li {
+                width: 20%; 
+                float: left;
+                margin: 0 auto;
+            }
+            #skill .tools li a img{
+                width: 70%;
+                transition: all 0.2s;
+            }
+            #skill .tools li a img:hover {
+                transform: scale(1.2);
+            }
+            #skill .tools:after {
+                content: ''; 
+                display: block; 
+                clear: both;
+            }
+    
+            .percentage {
+                max-width: 80%;
+                text-align: center;
+                margin: -10px auto;
+            }
+    
+            .percentage li {
+                width: 20%;
+                float: left;
+                margin: 0 auto;
+                font-size: 16px;
+            }
+        
+            
+            
+            
+        }
+       
+        
+        
+        
+        
+    
+</style>
+
+
+
+<script>
+//    $(function(){
+//        $("#more").click(function(){
+//            $("#extra").slideToggle();
+//        });
+//    });
+    
+    
+</script>
+
+
+<!------------------------------------- 본문 ------------------------------------------>
+<body>
+<div id="wrap">
+   
+    <div id="top_bar">
+        <ul class="top_left">
+            <li><a href="resume.html"><i class="fas fa-chevron-left"></i></a></li>
+        </ul>
+        <ul class="top_right">
+<!--
+                <li><a href="">portfolio</a></li>
+                <li><a href="">contact</a></li>
+-->
+            <li><a href="#"><i class="fas fa-bold"></i></a></li>
+            <li><a href="#"><i class="far fa-envelope"></i></a></li>
+        </ul>
+    </div>
+    
+    
+    
+    <div id="profile">
+        <img src="img/profile_Deep.png" alt="내 얼굴">
+        <ul class="PI">
+            <li>이름 :  김정화, &nbsp;<span>Kim Jeonghwa</span></li>
+            <li>생년월일 : &nbsp;&nbsp;<span>1995. 09. 16</span></li>
+            <li>전화번호 : &nbsp;&nbsp;<span>010-5759-1351</span></li>
+            <li>이메일 : &nbsp;&nbsp;<span>etudiant16@naver.com</span></li>
+            <li>주소 : &nbsp;&nbsp;<span>제주특별자치도 제주시 화삼북로2길 12, 110동 1101호</span></li>
+        </ul>
+    </div>
+    
+    
+    
+<!--
+    <div id="PI">
+        <ul class="PI">
+            <li>이름: 김정화</li>
+            <li>생년월일: &nbsp;<span>1995. 09. 16</span></li>
+            <li>전화번호: &nbsp;<span>010-5759-1351</span></li>
+            <li>Address: &nbsp;<span>제주특별자치도 제주시 화삼북로2길 12, 110동 1101호</span></li>
+        </ul>
+    </div>    
+-->
+    <div id="SI">
+        <ul>
+            <li><h3>자기소개</h3></li>
+            <li><p>&nbsp;&nbsp;먼저 저의 성격적인 장점은 잘 웃고 밝은 모습이라는 것입니다. 성격이 유쾌해서 사람들과 잘 어울리고 활력 있는 분위기를 만듭니다. 인연을 소중히 생각하며 타인에 대한 공감과 의사소통 능력으로 사람들이 마음을 열고 편안함을 느낄 수 있게 합니다. 저의 유머러스하고 친근한 성격 또한 사람들에게 호감과 흥미를 이끌어낼 수 있는 장점으로 작용할 것이라 기대가 되지만 업무적인 부분에서의 제가 가진 확실한 강점은 관찰력이라고 생각합니다. 시각적인 부분이 저의 최대 관심사이기 때문에 좋은 디자인이나 새로운 아이디어가 있다면 눈여겨보고 스크랩하던 습관이 미적인 감각을 기르게 해 주었고 그림을 전공한 이력 또한 무한한 가능성이 되리라 생각합니다. 책임감이 강하고 욕심이 있는 만큼 업무 과정에서 스트레스를 받는다는 단점이 있지만 일에 대한 긴장과 불안을 좋은 결과를 위한 채찍과 원동력으로 사용하며 긍정적인 방향으로 풀어내는 편입니다.</p> 
+            </li>
+            <br>
+            <li><p>&nbsp;&nbsp;저는 그림을 그리는 것 이외에도 사진, 영상, 패션, 공간등 보여지는 모든 것이 관심의 대상이었습니다. 그 중에서도 주로 영화나 뮤직비디오를 보면서 영감을 얻고 좋아해왔지만 직업으로 생각을 하게 된 계기는 대학교 3학년 영상미디어 수업에서였습니다. 당시 새롭게 개설된 전공과목이었고 처음 촬영 장비와 편집 프로그램을 다뤄보면서 머릿속에 생각하는 것을 움직이는 화면으로 표현할 수 있다는 것에 큰 매력을 느꼈습니다. 손바닥 위 팔레트가 다른 차원으로 거대하게 확장되는 짜릿한 경험이었고 그 후 제 역량을 영상으로써 더 다양하게 펼쳐보고 싶다는 꿈을 꾸게 되었습니다.</p>
+            </li>
+            <br>
+            <li><p>&nbsp;&nbsp;미술을 전공했지만 디자인 업무에 관해서 보완점이 있다고 생각되어 졸업 이후 방송정보국제교육원에서 앱 콘텐츠와 영상 콘텐츠 제작 교육을 받았습니다. 6개월 간의 교육을 통해 포토샵, 일러스트, 프리미어프로, 애프터이펙트 등 어도비 프로그램은 유연하게 다룰 수 있고 C4D는 경험이 많지 않아 로고 제작이 가능한 정도의 수준이지만 기본 툴에 대한 이해를 하고 있고 간단한 응용이 가능합니다. 또한 포토샵 국가공인자격 시험인 GTQ1급을 취득하였습니다.</p> 
+            </li>
+        </ul>
+        <ul>
+            <li><h3>경험사항 / 봉사활동</h3></li>
+            <li><p>&nbsp;&nbsp;운이 좋게도 대학시절 내내 전공 관련 아르바이트를 해왔습니다. 미술학원 강사로 가장 오래 일을 했고 동화의 삽화, 지역행사의 미술 체험 진행등 꾸준하게 미술과 관련한 다양한 활동을 해왔기 때문에 미적인 것에 대한 연구를 지속하며 스스로를 발전 시킬 수 있었습니다.</p> 
+            </li>
+            <br>
+            <li><p>&nbsp;&nbsp;어렸을 때부터 가족들과 주말이면 장애인 요양원으로 봉사활동을 다녔습니다. 생활관의 청소와 식사보조, 여가시간에는 대화와 놀이를 주로 도맡아 했습니다. 장애인을 마주하는 것이 어린 눈에는 낯설고 어려웠지만 마음으로 봉사하시는 집안 어른들을 보며 일찍이 함께하는 삶을 배우며 자라왔습니다. 장애인, 사회적 약자의 곁에서 가깝게 지낸 경험들 덕분에 그들의 삶에 대해서 더 깊이 이해하고 제가 나눌 수 있는 것이면 기꺼이 나누는 행복을 깨달았습니다. 이러한 경험이 사회생활에서의 타인에 대한 배려가 되고 오래 인연을 유지할 수 있는 힘이 되었습니다.
+            </p></li>
+        </ul>
+        
+    </div>
+    <div id="skill">
+       <h1>Skills</h1>
+        <ul class="tools">
+            <li><a href="#"><img src="img/Ps.png" alt=""></a></li>
+            <li><a href="#"><img src="img/Ai.png" alt=""></a></li>
+            <li><a href="#"><img src="img/Pr.png" alt=""></a></li>
+            <li><a href="#"><img src="img/Ae.png" alt=""></a></li>
+            <li><a href="#"><img src="img/c4d.png" alt=""></a></li>
+        </ul>
+<!--
+        <ul class="percentage">
+            <li><a href="">95%</a></li>
+            <li><a href="">95%</a></li>
+            <li><a href="">90%</a></li>
+            <li><a href="">90%</a></li>
+            <li><a href="">60%</a></li>
+        </ul>
+-->
+        
+    </div>
+    
+    <div id="history">
+        <h1>history</h1>
+        <p>학력사항</p>  
+        <div class="table_layout">
+            <ul class="list">
+                <li class="table_th">
+                    <div class="num dpnone">졸업년월</div>
+                    <div class="th_subject">학교명</div> 
+                    <div class="date dpnone">전공</div>
+                    <div class="count dpnone">비고</div>
+                </li>
+                <li class="table_tr"> 
+                    <div class="num">2014. 02</div>
+                    <div class="subject">세화고등학교</div>
+                    <div class="date">인문계</div>
+                    <div class="count">졸업</div>
+                </li>
+                <li class="table_tr">
+                    <div class="num">2020. 02</div>
+                    <div class="subject">제주대학교</div>
+                    <div class="date">미술학부 서양화과</div>
+                    <div class="count">졸업</div>
+                </li>
+            </ul>
+        </div>
+        <p>교육사항</p>
+        <div class="table_layout">
+            <ul class="list">
+                <li class="table_th">
+                    <div class="num dpnone">기간</div>
+                    <div class="th_subject">교육명</div> 
+                    <div class="date dpnone">교육기관</div>
+                    <div class="count dpnone">Training details</div>
+                </li>
+                <li class="table_tr"> 
+                    <div class="num">2020.06 ~ 2020. 07</div>
+                    <div class="subject">취업역량강화교육</div>
+                    <div class="date">재단법인제주신화월드<br>교육일자리지원센터</div>
+                    <div class="count">Self Leadership<br>이미지메이킹 교육</div>
+                </li>
+                <li class="table_tr">
+                    <div class="num">2020. 09 ~ 2021. 03</div>
+                    <div class="subject">멀티미디어콘텐츠제작<br>(앱콘텐츠, 영상콘텐츠)</div>
+                    <div class="date">방송정보국제교육원</div>
+                    <div class="count">우수졸업생</div>
+                </li>
+            </ul>
+        </div>
+        <p>경력사항</p>
+        <div class="table_layout">
+            <ul class="list">
+                <li class="table_th">
+                    <div class="num dpnone">Period</div>
+                    <div class="th_subject">Corporate name</div> 
+                    <div class="date dpnone">Sortation</div>
+                    <div class="count dpnone">Duty</div>
+                </li>
+                <li class="table_tr"> 
+                    <div class="num">2018. 03 ~ 2019. 10</div>
+                    <div class="subject">제주대학로 루피</div>
+                    <div class="date">아르바이트</div>
+                    <div class="count">홍보영상 촬영, 그림 연재</div>
+                </li>
+                <li class="table_tr">
+                    <div class="num">2018. 11</div>
+                    <div class="subject">2018 제주문화기획학교</div>
+                    <div class="date">아르바이트</div>
+                    <div class="count">기획실험전시 동화책 삽화 참여</div>
+                </li>
+                <li class="table_tr"> 
+                    <div class="num">2017. 03 ~ 2018. 09</div>
+                    <div class="subject">제주 선 미술학원</div>
+                    <div class="date">미술강사</div>
+                    <div class="count">입시미술, 취미미술 지도</div>
+                </li>
+                <li class="table_tr">
+                    <div class="num">2018, 2017</div>
+                    <div class="subject">제주탐라문화제</div>
+                    <div class="date">아르바이트</div>
+                    <div class="count">페이스페인팅 부스 운영</div>
+                </li>
+                <li class="table_tr">
+                    <div class="num">2015. 03 ~ 2015. 12</div>
+                    <div class="subject">제주 선 미술학원</div>
+                    <div class="date">미술강사</div>
+                    <div class="count">입시미술 지도</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="more">
+        <p class="more"><i class="fas fa-plus"></i></p>
+    </div>
+    <div id="extra">
+<!--        <p class="more"><i class="fas fa-minus"></i></p>-->
+        <p>경험사항</p>
+        <div class="table_layout">
+            <ul class="list">
+                <li class="table_th">
+                    <div class="num dpnone">Period</div>
+                    <div class="th_subject">Organization</div> 
+                    <div class="date dpnone">Main task</div>
+                </li>
+                <li class="table_tr"> 
+                    <div class="num">2020. 05</div>
+                    <div class="subject">상상유니브 2020 치어링 뱃지 디자인 공모전 참가</div>
+                    <div class="date">코로나19로 혼란을 겪는 새내기 대학생을 위한 일러스트 창작,<br>장학금 지원 프로젝트</div>
+                </li>
+                <li class="table_tr">
+                    <div class="num">2019. 08. 25 ~ 08. 31</div>
+                    <div class="subject">예술공간 파도<br>&lt;different wave&gt; 단체展</div>
+                    <div class="date">전시기획, 참여(&lt;blue&gt;시리즈 5점 출품)</div>
+                </li>
+            </ul>
+        </div>
+        <p>봉사활동</p>
+        <div class="table_layout">
+            <ul class="list">
+                <li class="table_th">
+                    <div class="num dpnone">Period</div>
+                    <div class="th_subject">Sortation</div> 
+                    <div class="date dpnone">Activities</div>
+                </li>
+                <li class="table_tr"> 
+                    <div class="num">2008 ~ 2014</div>
+                    <div class="subject">제주 장애인 요양원</div>
+                    <div class="date">식사보조 및 생활관 청소</div>
+                </li>
+                <li class="table_tr">
+                    <div class="num">2018. 06</div>
+                    <div class="subject">제주시 이도2동 벽화 봉사활동</div>
+                    <div class="date">재능나눔 일러스트 작업</div>
+                </li>
+            </ul>
+        </div>
+        <p>자격사항</p>
+        <div class="table_layout">
+            <ul class="list">
+                <li class="table_th">
+                    <div class="num dpnone">Type</div>
+                    <div class="th_subject">Authority</div> 
+                    <div class="date dpnone">Acquisition date</div>
+                </li>
+                <li class="table_tr"> 
+                    <div class="num">운전면허 제 2종 보통</div>
+                    <div class="subject">제주지방경찰청장</div>
+                    <div class="date">2017. 02. 06</div>
+                </li>
+                <li class="table_tr"> 
+                    <div class="num">GTQ그래픽기술자격 1급</div>
+                    <div class="subject">kpc한국생산성본부</div>
+                    <div class="date">2021. 10. 15</div>
+                </li>
+            
+            </ul>
+        </div>
+        
+        <div id="footer">
+            
+        </div>
+    </div>
+</div>
+</body>
+</html>

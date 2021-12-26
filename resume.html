@@ -1,0 +1,1848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kim Jeonghwa</title>
+    <script src="https://kit.fontawesome.com/85b4ce6da2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale-1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/colorbox.css">
+    <script src="js/jquery.colorbox-min.js"></script>
+    
+    <style>
+    
+/*<!--       ------------------------  배경  ---------------------------------->*/
+        
+        body {background: antiquewhite;}
+        
+/*<!--        -------------------------------------------------------------------->*/
+        
+        
+        
+        
+        
+/*<!--       ------------------------상단 아이콘---------------------------------->*/
+        #top_bar {
+            position: fixed;
+            padding-top: 20px;
+            top: 0px;
+            width: 100%;
+        }
+        
+        #top_bar ul li {
+            float: left;
+            font: 18px/1.05 Italiana;
+            transition: all 0.2s;
+        }
+        
+        #top_bar ul li:hover {
+            transform: scale(1.2);
+        }
+        
+        #top_bar .top_left {
+            padding-left: 45px;
+        }
+        
+        #top_bar .top_right {
+            position: absolute;
+            right: 50px;
+        }
+        
+        #top_bar .top_right li {
+            margin-left: 33px;
+        }
+        
+        #top_bar:after {
+            content: ''; 
+            display: block; 
+            clear: both;
+        }
+/*<!--        -------------------------------------------------------------------->*/
+        
+        
+        
+        
+        
+/*<!--       --------------------------대문짝 이름---------------------------------->*/
+        #name {
+            text-align: center;
+/*            margin-top: 133px;*/
+            margin-top: 158px;
+        }
+        #name p {
+            font: 210px/1.05 Italiana;
+        }
+/*<!--        -------------------------------------------------------------------->*/
+
+        
+        
+        
+        
+/*<!--       --------------------------사진과 소개---------------------------------->*/
+        #profile {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        #profile img {
+            width: 280px;
+            margin-top: 120px;
+            margin-left: 10%;
+            margin-right: 5%;
+            float: left;
+        }
+        #profile ul {
+            _margin-right: 10%;
+        }
+        #profile ul li:first-child {
+            max-width: 550px;
+            margin: 0 auto;
+            text-align-last: justify;
+            padding-top: 10px;
+        }
+        #profile ul li:last-child p {
+            font: 17px/1.6 Noto Sans KR;
+            text-align: center;
+            margin-top: -90px;
+        }
+        #profile p span {font: 280px/1.0 Arizonia; display: inline-block;}
+        #profile p span:first-child {transform: rotateY(210deg);}
+        #profile:after {
+            content: ''; 
+            display: block; 
+            clear: both;
+        }
+/*<!--        -------------------------------------------------------------------->*/
+        
+        
+        
+        
+        
+        #portfolio {max-width: 100%; margin: 150px auto;}
+        #portfolio ul {display: none;}
+        #portfolio ul li {font-size: 20px;}
+        
+
+        
+/*<!--       ------------------------첫 번째 영상---------------------------------->*/
+        #portfolio #video01 {
+            position: relative;
+            border-top: 2px solid #000;
+            cursor: pointer;
+        }
+        #portfolio .title01 {
+            font: 100px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        #video01 .title01 {
+            float: left;
+            margin-left: 2%;
+        }
+        #video01:after {content: ''; display: block; clear: both;}
+        #video01 img {width: 250px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video01:hover img {opacity: 1; transition: 1s;}
+        #video01:hover {background: #fff;}
+        
+/*
+        #contents01 {
+            position: relative;
+        }
+*/
+        
+        #contents01 iframe {
+            float: left;
+            width: 937px;
+            height: 527px;
+            margin-left: 3%;
+            margin-right: 2%;
+            _margin-bottom: 70px;
+        }
+        #contents01:after {content: ''; display: block; clear: both;}
+        .comment01:after {content: ''; display: block; clear: both;}
+        
+        #contents01 .comment01 {
+            position: relative;
+            width: 400px;
+            margin-right: 4%;
+            font: 17px/1.6 Noto Sans KR;
+        }
+        .comment01 span {
+            position: absolute;
+            width: 400px;
+            bottom: 0;
+        }
+        .comment01 spanx {
+            display: none;
+        }
+        
+        #contents01 img {
+            float: left;
+            width: 21%;
+            margin: 70px 0;
+        }
+        #contents01 .levis5 {display: none;}
+        #contents01 .levis6 {display: none;}
+        #contents01 .levis7 {display: none;}
+        #contents01 .levis8 {display: none;}
+        
+        #contents01 .levis9 {display: none;}
+        #contents01 .levis10 {display: none;}
+        #contents01 .levis11 {display: none;}
+        #contents01 .levis12 {display: none;}
+        
+        #contents01 img:hover {opacity: 0.8; transition: 0.2s;}
+        #contents01 img:first-child {
+            margin-left: 3%;
+        }
+        #contents01 img:last-child {
+            margin-left: 3%;
+        }
+        
+        #contents01 span img:last-child {
+            margin-left: 0;
+        }
+        #contents01 span img {
+            margin: 60px 0 0 0;
+            margin-right: 3%;
+            width: 20%;
+        }
+        
+/*<!--        -------------------------------------------------------------------->*/
+        
+        
+        
+        
+        
+/*<!--       ------------------------두 번째 영상---------------------------------->*/
+        #portfolio #video02 {
+            position: relative;
+            border-top: 2px solid #000;
+            cursor: pointer;
+        }
+        #portfolio .title02 {
+            font: 100px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        #video02 .title02 {
+            float: left;
+            margin-left: 2%;}
+        #video02:after {content: ''; display: block; clear: both;}
+        #video02 img {width: 250px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video02:hover img {opacity: 1; transition: 1s;}
+        #video02:hover {background: #fff;}
+        
+        #contents02 iframe {
+            float: left;
+            width: 937px;
+            height: 527px;
+            margin-left: 3%;
+            margin-right: 2%;
+            _margin-bottom: 70px;
+        }
+        #contents02:after {content: ''; display: block; clear: both;}
+        .comment02:after {content: ''; display: block; clear: both;}
+        
+        #contents02 .comment02 {
+            position: relative;
+            width: 400px;
+            margin-right: 4%;
+            font: 17px/1.6 Noto Sans KR;
+        }
+        .comment02 span {
+            position: absolute;
+            width: 400px;
+            bottom: 0;
+        }
+        .comment02 spanx {
+            display: none;
+        }
+        
+        #contents02 img {
+            float: left;
+            width: 21%;
+            margin: 70px 0;
+        }
+        
+        #contents02 .pl5 {display: none;}
+        #contents02 .pl6 {display: none;}
+        #contents02 .pl7 {display: none;}
+        #contents02 .pl8 {display: none;}
+        
+        #contents02 .pl9 {display: none;}
+        #contents02 .pl10 {display: none;}
+        #contents02 .pl11 {display: none;}
+        #contents02 .pl12 {display: none;}
+        
+        #contents02 img:hover {opacity: 0.8; transition: 0.2s;}
+        #contents02 img:first-child {
+            margin-left: 3%;
+        }
+        #contents02 img:last-child {
+            margin-left: 3%;
+        }
+        
+        #contents02 span img:last-child {
+            margin-left: 0;
+        }
+        #contents02 span img {
+            margin: 60px 0 0 0;
+            margin-right: 3%;
+            width: 20%;
+        }
+/*<!--        -------------------------------------------------------------------->*/
+        
+        
+        
+        
+        
+/*<!--       -------------------------세 번째 영상---------------------------------->*/
+       #portfolio #video03 {
+            position: relative;
+            border-top: 2px solid #000;
+            _border-bottom: 2px solid #000;
+            cursor: pointer;
+        }
+        #portfolio .title03 {
+            font: 100px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        #video03 .title03 {
+            float: left;
+            margin-left: 2%;}
+        #video03:after {content: ''; display: block; clear: both;}
+        #video03 img {width: 250px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video03:hover img {opacity: 1; transition: 1s;}
+        #video03:hover {background: #fff;}
+        
+        #contents03 iframe {
+            float: left;
+            width: 937px;
+            height: 527px;
+            margin-left: 3%;
+            margin-right: 2%;
+            _margin-bottom: 70px;
+        }
+        #contents03:after {content: ''; display: block; clear: both;}
+        .comment03:after {content: ''; display: block; clear: both;}
+        
+        #contents03 .comment03 {
+            position: relative;
+            width: 400px;
+            margin-right: 4%;
+            font: 17px/1.6 Noto Sans KR;
+        }
+        
+        .comment03 span {
+            position: absolute;
+            width: 400px;
+            bottom: 0;
+        }
+        .comment03 spanx {
+            display: none;
+        }
+        
+        #contents03 img {
+            float: left;
+            width: 21%;
+            margin: 70px 0;
+        }
+        
+        #contents03 .xiumin5 {display: none;}
+        #contents03 .xiumin6 {display: none;}
+        #contents03 .xiumin7 {display: none;}
+        #contents03 .xiumin8 {display: none;}
+        
+        #contents03 .xiumin9 {display: none;}
+        #contents03 .xiumin10 {display: none;}
+        #contents03 .xiumin11 {display: none;}
+        #contents03 .xiumin12 {display: none;}
+        
+        #contents03 img:hover {opacity: 0.8; transition: 0.2s;}
+        #contents03 img:first-child {
+            margin-left: 3%;
+        }
+        #contents03 img:last-child {
+            margin-left: 3%;
+        }
+        
+        #contents03 span img:last-child {
+            margin-left: 0;
+        }
+        #contents03 span img {
+            margin: 60px 0 0 0;
+            margin-right: 3%;
+            width: 20%;
+        }
+        
+        
+/*<!--        -------------------------------------------------------------------->*/
+        
+        
+        
+        
+/*<!--       -------------------------네 번째 영상---------------------------------->*/
+       #portfolio #video04 {
+            position: relative;
+            border-top: 2px solid #000;
+            _border-bottom: 2px solid #000;
+           cursor: pointer;
+        }
+        #portfolio .title04 {
+            font: 100px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        
+        #video04 .title04 {
+            float: left;
+            margin-left: 2%;}
+        #video04:after {content: ''; display: block; clear: both;}
+        #video04 img {width: 250px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video04:hover img {opacity: 1; transition: 1s;}
+        #video04:hover {background: #fff;}
+        
+        #contents04:after {content: ''; display: block; clear: both;}
+        .comment04:after {content: ''; display: block; clear: both;}
+        
+
+        
+        #contents04 img {
+            float: left;
+            width: 45.5%;
+            margin: 0 0 70px;
+        }
+        
+        #contents04 .shorts5 {display: none;}
+        #contents04 .shorts6 {display: none;}
+        #contents04 .shorts7 {display: none;}
+        #contents04 .shorts8 {display: none;}
+        
+        #contents04 .shorts9 {display: none;}
+        #contents04 .shorts10 {display: none;}
+        #contents04 .shorts11 {display: none;}
+        #contents04 .shorts12 {display: none;}
+        
+        #contents04 img:hover {opacity: 0.8; transition: 0.2s;}
+        #contents04 img:first-child {
+            margin-left: 3%;
+        }
+        #contents03 img:last-child {
+            margin-left: 3%;
+        }
+        
+        #contents03 span img:last-child {
+            margin-left: 0;
+        }
+        #contents03 span img {
+            margin: 60px 0 0 0;
+            margin-right: 3%;
+            width: 20%;
+        }
+        
+/*<!--        -------------------------------------------------------------------->*/
+        
+        
+        #portfolio #video05 {
+            position: relative;
+            border-top: 2px solid #000;
+            _border-bottom: 2px solid #000;
+        }
+        
+
+        
+/*<!--       -------------------------  쇼츠  ---------------------------------->*/
+/*
+        #shorts {max-width: 96%; margin: 0 auto; padding-left: 1.8%; text-align: center;}
+        #shorts h1 {font: 80px/1.0 Italiana; margin-top: -50px; margin-bottom: 50px;}
+        #shots ul {max-width: 92%;}
+        #shorts img {
+            float: left;
+            width: 23%;
+            _margin-top: 2%;
+            margin-right: 2%;
+        }
+        
+        #shorts .shorts5 {display: none;}
+        #shorts .shorts6 {display: none;}
+        #shorts .shorts7 {display: none;}
+        #shorts .shorts8 {display: none;}
+        
+        #shorts .shorts9 {display: none;}
+        #shorts .shorts10 {display: none;}
+        #shorts .shorts11 {display: none;}
+        #shorts .shorts12 {display: none;}
+        
+        #shorts img:hover {_transform: scale(1.02); opacity: 0.8; transition: 0.2s;}
+        #shorts ul li:last-child {
+            margin-right: 0%;
+        }
+        #shorts:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+*/
+        
+        
+        
+/*<!--       -------------------------  연락처  ---------------------------------->*/
+        #contact {max-width: 100%; margin: 0px auto; text-align: center;}
+        #contact h1 {font: 80px/1.0 Italiana; margin-top: 100px; margin-bottom: 15px;}
+        #contact li {font: 170px/1.0 Italiana;}
+        #contact li:hover {
+            transform: scale(1.02);
+            transition: 0.2s;
+        }
+/*<!--        -------------------------------------------------------------------->*/
+        
+        
+        
+        
+        
+        
+        
+/*
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------------------------------------------------->
+<!--        --------------------------------------------------------------------
+<!--       ------------------------- 모바일 ver --------------------------------->
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------------------------------------------------->
+*/
+        
+        
+        @media all and (max-width: 1430px) and (min-width: 1166px){
+            
+            #video01:hover img {opacity: 0; transition: 1s;}
+            #contents01 iframe {
+                width: 725px;
+                height: 427px;
+            }
+            .comment01 span {
+                width: 350px;
+            }
+            
+            
+            #video02:hover img {opacity: 0; transition: 1s;}
+            #contents02 iframe {
+                width: 725px;
+                height: 427px;
+            }
+            .comment02 span {
+                width: 350px;
+            }
+            
+            
+            #video03:hover img {opacity: 0; transition: 1s;}
+            #contents03 iframe {
+                width: 725px;
+                height: 427px;
+            }
+            .comment03 span {
+                width: 350px;
+            }
+            
+            
+            #video04:hover img {opacity: 0; transition: 1s;}
+            
+        }
+        
+        
+        
+        
+        
+        
+        /*-----------------------------------------------------------------*/
+        
+        /* ipad가로, ipadpro가로/세로, gallaxyTab가로 */
+        @media all and (max-width: 1165px) and (min-width: 801px){
+            
+            
+            #name {
+                text-align: center;
+                margin-top: 158px;
+            }
+            #name p {
+                font: 178px/1.05 Italiana;
+            }
+            
+            
+            #profile {
+                max-width: 600px;
+                margin: 0 auto;
+            }
+            #profile img {
+                width: 280px;
+                margin-top: 120px;
+                margin-left: 10%;
+                margin-right: 5%;
+                float: left;
+            }
+            #profile ul {
+                _margin-right: 10%;
+            }
+            #profile ul li:first-child {
+                max-width: 520px;
+                margin: 0 auto;
+                text-align-last: justify;
+                padding-top: 0;
+            }
+            #profile ul li:last-child p {
+                font: 16px/1.6 Noto Sans KR;
+                text-align: center;
+                margin-top: -90px;
+            }
+            #profile p span {font: 260px/1.0 Arizonia; display: inline-block;}
+            #profile p span:first-child {transform: rotateY(210deg);}
+            #profile:after {
+                content: ''; 
+                display: block; 
+                clear: both;
+            }
+            
+            
+            
+            
+        #portfolio {max-width: 100%; margin: 150px auto;}
+        #portfolio ul {display: none;}
+        #portfolio ul li {font-size: 20px;}
+        
+
+        
+
+        #portfolio #video01 {
+            position: relative;
+            border-top: 2px solid #000;
+            cursor: pointer;
+        }
+         #portfolio .title01 {
+            font: 80px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        #video01 .title01 {
+            float: left;
+            margin-left: 2%;}
+        #video01:after {content: ''; display: block; clear: both;}
+        #video01 img {width: 200px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video01:hover img {opacity: 0; transition: 1s;}
+        #video01:hover {background: #fff;}
+        
+        #contents01 iframe {
+            float: none;
+            width: 725px;
+            height: 427px;
+            display: block;
+            margin: 20px auto;
+/*
+            margin-left: 3%;
+            margin-right: 2%;
+*/
+            _margin-bottom: 70px;
+        }
+        #contents01:after {content: ''; display: block; clear: both;}
+        .comment01:after {content: ''; display: block; clear: both;}
+        
+        #contents01 {
+            width: 97%;
+            margin: 0 auto;
+        }    
+            
+        #contents01 .comment01 {
+            position: relative;
+            _max-width: 80%;
+            width: 600px;
+            margin: 0 auto 70px;
+            _margin-right: 4%;
+            font: 17px/1.6 Noto Sans KR;
+        }
+        .comment01 span {
+            position: absolute;
+            bottom: 0;
+            display: none;
+        }
+        .comment01 spanx {
+            display: contents;
+        }
+        
+        #contents01 img {
+            float: left;
+            width: 45.5%;
+            margin: 0 0 70px;
+        }
+        
+        #contents01 .levis1 {display: none;}
+        #contents01 .levis2 {display: none;}
+        #contents01 .levis3 {display: none;}
+        #contents01 .levis4 {display: none;}
+            
+        #contents01 .levis5 {display: contents;}
+        #contents01 .levis6 {display: contents;}
+        #contents01 .levis7 {display: contents;}
+        #contents01 .levis8 {display: contents;}
+            
+        #contents01 .levis9 {display: none;}
+        #contents01 .levis10 {display: none;}
+        #contents01 .levis11 {display: none;}
+        #contents01 .levis12 {display: none;}
+            
+        #contents01 img:hover {opacity: 0.8; transition: 0.2s;}
+        #contents01 img:first-child {
+            margin-left: 3%;
+        }
+        #contents01 img:last-child {
+            margin-left: 3%;
+        }
+        
+        #contents01 spanx img:last-child {
+            margin-left: 0;
+        }
+        #contents01 spanx img {
+            float: right;
+            margin: -50px 0 0 0;
+            margin-left: 3%;
+            width: 70px;
+        }
+        .comment01 spanx img:first-child {
+            margin-left: 90px;
+        }
+        
+
+        
+        
+        
+        
+        
+
+        #portfolio #video02 {
+            position: relative;
+            border-top: 2px solid #000;
+            cursor: pointer;
+        }
+        #portfolio .title02 {
+            font: 80px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        #video02 .title02 {
+            float: left;
+            margin-left: 2%;}
+        #video02:after {content: ''; display: block; clear: both;}
+        #video02 img {width: 200px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video02:hover img {opacity: 0; transition: 1s;}
+        #video02:hover {background: #fff;}
+        
+        #contents02 iframe {
+            float: none;
+            width: 725px;
+            height: 427px;
+            display: block;
+            margin: 20px auto;
+        }
+        #contents02:after {content: ''; display: block; clear: both;}
+        .comment02:after {content: ''; display: block; clear: both;}
+        
+        #contents02 {
+            width: 97%;
+            margin: 0 auto;
+        }    
+            
+        #contents02 .comment02 {
+            position: relative;
+            _max-width: 80%;
+            width: 600px;
+            margin: 0 auto 70px;
+            font: 17px/1.6 Noto Sans KR;
+        }
+        .comment02 span {
+            position: absolute;
+            bottom: 0;
+            display: none;
+        }
+        .comment02 spanx {
+            display: contents;
+        }
+        
+        #contents02 img {
+            float: left;
+            width: 45.5%;
+            margin: 0 0 70px;
+        }
+            
+        #contents02 .pl1 {display: none;}
+        #contents02 .pl2 {display: none;}
+        #contents02 .pl3 {display: none;}
+        #contents02 .pl4 {display: none;}
+            
+        #contents02 .pl5 {display: contents;}
+        #contents02 .pl6 {display: contents;}
+        #contents02 .pl7 {display: contents;}
+        #contents02 .pl8 {display: contents;}
+            
+        #contents02 .pl9 {display: none;}
+        #contents02 .pl10 {display: none;}
+        #contents02 .pl11 {display: none;}
+        #contents02 .pl12 {display: none;}
+            
+        #contents02 img:hover {opacity: 0.8; transition: 0.2s;}
+        #contents02 img:first-child {
+            margin-left: 3%;
+        }
+        #contents02 img:last-child {
+            margin-left: 3%;
+        }
+        
+        #contents02 spanx img:last-child {
+            margin-left: 0;
+        }
+        #contents02 spanx img {
+            float: right;
+            margin: -50px 0 0 0;
+            margin-left: 3%;
+            width: 70px;
+        }
+
+        
+        
+        
+        
+        
+
+       #portfolio #video03 {
+            position: relative;
+            border-top: 2px solid #000;
+            _border-bottom: 2px solid #000;
+            cursor: pointer;
+        }
+        #portfolio .title03 {
+            font: 80px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        #video03 .title03 {
+            float: left;
+            margin-left: 2%;}
+        #video03:after {content: ''; display: block; clear: both;}
+        #video03 img {width: 200px; position: absolute; top: 20px; right: 20px; opacity: 0; transition: 0.5s;}
+        #video03:hover img {opacity: 0; transition: 1s;}
+        #video03:hover {background: #fff;}
+        
+        #contents03 iframe {
+            float: none;
+            width: 725px;
+            height: 427px;
+            display: block;
+            margin: 20px auto;
+        }
+        #contents03:after {content: ''; display: block; clear: both;}
+        .comment03:after {content: ''; display: block; clear: both;}
+        
+        #contents03 {
+            width: 97%;
+            margin: 0 auto;
+        }
+        
+        #contents03 .comment03 {
+            position: relative;
+            _max-width: 80%;
+            width: 600px;
+            margin: 0 auto 70px;
+            font: 17px/1.6 Noto Sans KR;
+        }
+        
+        .comment03 span {
+            position: absolute;
+            bottom: 0;
+            display: none;
+        }
+        .comment03 spanx {
+            display: contents;
+        }
+        
+        #contents03 img {
+            float: left;
+            width: 45.5%;
+            margin: 0 0 70px;
+        }
+        
+        #contents03 .xiumin1 {display: none;}
+        #contents03 .xiumin2 {display: none;}
+        #contents03 .xiumin3 {display: none;}
+        #contents03 .xiumin4 {display: none;}
+            
+        #contents03 .xiumin5 {display: contents;}
+        #contents03 .xiumin6 {display: contents;}
+        #contents03 .xiumin7 {display: contents;}
+        #contents03 .xiumin8 {display: contents;}
+            
+        #contents03 .xiumin9 {display: none;}
+        #contents03 .xiumin10 {display: none;}
+        #contents03 .xiumin11 {display: none;}
+        #contents03 .xiumin12 {display: none;}
+        
+        #contents03 img:hover {opacity: 0.8; transition: 0.2s;}
+        #contents03 img:first-child {
+            margin-left: 3%;
+        }
+        #contents03 img:last-child {
+            margin-left: 3%;
+        }
+        
+        #contents03 spanx img:last-child {
+            margin-left: 0;
+        }
+        #contents03 spanx img {
+            float: right;
+            margin: -50px 0 0 0;
+            margin-left: 3%;
+            width: 70px;
+        }
+        
+        
+
+        
+        
+        
+        
+
+       #portfolio #video04 {
+            position: relative;
+            border-top: 2px solid #000;
+            _border-bottom: 2px solid #000;
+           cursor: pointer;
+        }
+        #portfolio .title04 {
+            font: 80px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        
+        #video04 .title04 {
+            float: left;
+            margin-left: 2%;
+        }
+        #video04:after {content: ''; display: block; clear: both;}
+        #video04 img {width: 200px; position: absolute; top: 20px; right: 20px; opacity: 0; transition: 0.5s;}
+        #video04:hover img {opacity: 0; transition: 1s;}
+        #video04:hover {background: #fff;}
+            
+            
+        #contents04 .shorts1 {display: none;}
+        #contents04 .shorts2 {display: none;}
+        #contents04 .shorts3 {display: none;}
+        #contents04 .shorts4 {display: none;}
+            
+        #contents04 .shorts5 {display: contents;}
+        #contents04 .shorts6 {display: contents;}
+        #contents04 .shorts7 {display: contents;}
+        #contents04 .shorts8 {display: contents;}
+            
+        #contents04 .shorts9 {display: none;}
+        #contents04 .shorts10 {display: none;}
+        #contents04 .shorts11 {display: none;}
+        #contents04 .shorts12 {display: none;}
+        
+        
+
+        
+        #shorts {max-width: 96%; margin: 0 auto; padding-left: 1.8%; text-align: center;}
+        #shorts h1 {font: 80px/1.0 Italiana; margin-top: -50px; margin-bottom: 50px;}
+        #shots ul {max-width: 92%;}
+        #shorts img {
+            float: left;
+            width: 48%;
+            _margin-top: 2%;
+            margin-right: 2%;
+            margin-bottom: 20px;
+        }
+            
+        #shorts .shorts1 {display: none;}
+        #shorts .shorts2 {display: none;}
+        #shorts .shorts3 {display: none;}
+        #shorts .shorts4 {display: none;}
+        
+        #shorts .shorts5 {display: contents;}
+        #shorts .shorts6 {display: contents;}
+        #shorts .shorts7 {display: contents;}
+        #shorts .shorts8 {display: contents;}
+            
+        #shorts .shorts9 {display: none;}
+        #shorts .shorts10 {display: none;}
+        #shorts .shorts11 {display: none;}
+        #shorts .shorts12 {display: none;}
+            
+        #shorts img:hover {_transform: scale(1.02); opacity: 0.8; transition: 0.2s;}
+        #shorts ul li:last-child {
+            margin-right: 0%;
+        }
+        #shorts:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+            
+
+        #contact {max-width: 100%; margin: 0px auto; text-align: center;}
+        #contact h1 {font: 80px/1.0 Italiana; margin-top: -50px; margin-bottom: 15px;}
+        #contact li {font: 130px/1.0 Italiana;}
+
+        
+
+            
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        /*-----------------------------------------------------------------*/
+        /*-----------------------------------------------------------------*/ 
+        /*-----------------------------------------------------------------*/
+        
+        /* mobile */
+        @media screen and (max-width: 800px){
+            
+            #name {
+                text-align: center;
+                margin-top: 158px;
+            }
+            #name p {
+                font: 105px/1.05 Italiana;
+            }
+            
+            
+           
+            #profile {
+                max-width: 600px;
+                margin: 0 auto;
+            }
+            #profile img {
+                width: 280px;
+                margin-top: 120px;
+                margin-left: 10%;
+                margin-right: 5%;
+                float: left;
+            }
+            #profile ul {
+                _margin-right: 10%;
+            }
+            #profile ul li:first-child {
+                max-width: 370px;
+                margin: -5px auto 0;
+                text-align-last: justify;
+            }
+            #profile ul li:last-child p {
+                font: 16px/1.6 Noto Sans KR;
+                text-align: center;
+                margin: -60px 15% 0;
+            }
+            #profile p span {font: 160px/1.0 Arizonia; display: inline-block;}
+            #profile p span:first-child {transform: rotateY(210deg);}
+            #profile:after {
+                content: ''; 
+                display: block; 
+                clear: both;
+            }
+
+            
+            
+            
+            
+        #portfolio {max-width: 100%; margin: 110px auto;}
+        #portfolio ul {display: none;}
+        #portfolio ul li {font-size: 20px;}
+        
+
+        
+
+        #portfolio #video01 {
+            position: relative;
+            border-top: 2px solid #000;
+            cursor: pointer;
+        }
+         #portfolio .title01 {
+            font: 50px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        #video01 .title01 {
+            float: left;
+            margin-left: 2%;}
+        #video01:after {content: ''; display: block; clear: both;}
+        #video01 img {width: 200px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video01:hover img {opacity: 0; transition: 1s;}
+        #video01:hover {background: #fff;}
+        
+        #contents01 iframe {
+            float: none;
+            width: 459px;
+            height: 270px;
+            display: block;
+            margin: 20px auto;
+/*
+            margin-left: 3%;
+            margin-right: 2%;
+*/
+            _margin-bottom: 70px;
+        }
+        #contents01:after {content: ''; display: block; clear: both;}
+        .comment01:after {content: ''; display: block; clear: both;}
+        
+        #contents01 .comment01 {
+            position: relative;
+            max-width: 80%;
+            margin: 0 auto 70px;
+            _margin-right: 4%;
+            font: 17px/1.6 Noto Sans KR;
+        }
+        .comment01 span {
+            position: absolute;
+            bottom: 0;
+            display: none;
+        }
+        .comment01 spanx {
+            display: contents;
+        }
+        
+        #contents01 img {
+            float: left;
+            width: 45.5%;
+            margin: 0 0 70px;
+        }
+            
+        #contents01 .levis1 {display: none;}
+        #contents01 .levis2 {display: none;}
+        #contents01 .levis3 {display: none;}
+        #contents01 .levis4 {display: none;}
+            
+        #contents01 .levis5 {display: none;}
+        #contents01 .levis6 {display: none;}
+        #contents01 .levis7 {display: none;}
+        #contents01 .levis8 {display: none;}
+            
+        #contents01 .levis9 {display: contents;}
+        #contents01 .levis10 {display: contents;}
+        #contents01 .levis11 {display: contents;}
+        #contents01 .levis12 {display: contents;}
+            
+        #contents01 img:hover {opacity: 0.8; transition: 0.2s;}
+        #contents01 img:first-child {
+            margin-left: 3%;
+        }
+        #contents01 img:last-child {
+            margin-left: 3%;
+        }
+        
+        #contents01 spanx img:last-child {
+            margin-left: 0;
+        }
+        #contents01 spanx img {
+            float: right;
+            margin: -40px 0 0 0;
+            margin-right: 3%;
+            width: 50px;
+        }
+        
+
+        
+        
+        
+        
+        
+
+        #portfolio #video02 {
+            position: relative;
+            border-top: 2px solid #000;
+            cursor: pointer;
+        }
+        #portfolio .title02 {
+            font: 50px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        #video02 .title02 {
+            float: left;
+            margin-left: 2%;}
+        #video02:after {content: ''; display: block; clear: both;}
+        #video02 img {width: 200px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video02:hover img {opacity: 0; transition: 1s;}
+        #video02:hover {background: #fff;}
+        
+        #contents02 iframe {
+            float: none;
+            width: 459px;
+            height: 270px;
+            display: block;
+            margin: 20px auto;
+        }
+        #contents02:after {content: ''; display: block; clear: both;}
+        .comment02:after {content: ''; display: block; clear: both;}
+        
+        #contents02 .comment02 {
+            position: relative;
+            max-width: 80%;
+            margin: 0 auto 70px;
+            font: 17px/1.6 Noto Sans KR;
+        }
+        .comment02 span {
+            position: absolute;
+            bottom: 0;
+            display: none;
+        }
+        .comment02 spanx {
+            display: contents;
+        }
+        
+        #contents02 img {
+            float: left;
+            width: 45.5%;
+            margin: 0 0 70px;
+        }
+            
+        #contents02 .pl1 {display: none;}
+        #contents02 .pl2 {display: none;}
+        #contents02 .pl3 {display: none;}
+        #contents02 .pl4 {display: none;}
+            
+        #contents02 .pl5 {display: none;}
+        #contents02 .pl6 {display: none;}
+        #contents02 .pl7 {display: none;}
+        #contents02 .pl8 {display: none;}
+            
+        #contents02 .pl9 {display: contents;}
+        #contents02 .pl10 {display: contents;}
+        #contents02 .pl11 {display: contents;}
+        #contents02 .pl12 {display: contents;}
+            
+        #contents02 img:hover {opacity: 0.8; transition: 0.2s;}
+        #contents02 img:first-child {
+            margin-left: 3%;
+        }
+        #contents02 img:last-child {
+            margin-left: 3%;
+        }
+        
+        #contents02 spanx img:last-child {
+            margin-left: 0;
+        }
+        #contents02 spanx img {
+            float: right;
+            margin: -40px 0 0 0;
+            margin-left: 3%;
+            width: 50px;
+        }
+
+        
+        
+        
+        
+        
+
+       #portfolio #video03 {
+            position: relative;
+            border-top: 2px solid #000;
+            _border-bottom: 2px solid #000;
+            cursor: pointer;
+        }
+        #portfolio .title03 {
+            font: 50px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        #video03 .title03 {
+            float: left;
+            margin-left: 2%;}
+        #video03:after {content: ''; display: block; clear: both;}
+        #video03 img {width: 200px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video03:hover img {opacity: 0; transition: 1s;}
+        #video03:hover {background: #fff;}
+        
+        #contents03 iframe {
+            float: none;
+            width: 459px;
+            height: 270px;
+            display: block;
+            margin: 20px auto;
+        }
+        #contents03:after {content: ''; display: block; clear: both;}
+        .comment03:after {content: ''; display: block; clear: both;}
+        
+        #contents03 .comment03 {
+            position: relative;
+            max-width: 80%;
+            margin: 0 auto 70px;
+            font: 17px/1.6 Noto Sans KR;
+        }
+        
+        .comment03 span {
+            position: absolute;
+            bottom: 0;
+            display: none;
+        }
+        .comment03 spanx {
+            display: contents;   
+        }
+        
+        #contents03 img {
+            float: left;
+            width: 45.5%;
+            margin: 0 0 70px;
+        }
+            
+        #contents03 .xiumin1 {display: none;}
+        #contents03 .xiumin2 {display: none;}
+        #contents03 .xiumin3 {display: none;}
+        #contents03 .xiumin4 {display: none;}
+            
+        #contents03 .xiumin5 {display: none;}
+        #contents03 .xiumin6 {display: none;}
+        #contents03 .xiumin7 {display: none;}
+        #contents03 .xiumin8 {display: none;}
+            
+        #contents03 .xiumin9 {display: contents;}
+        #contents03 .xiumin10 {display: contents;}
+        #contents03 .xiumin11 {display: contents;}
+        #contents03 .xiumin12 {display: contents;}
+            
+        #contents03 img:hover {opacity: 0.8; transition: 0.2s;}
+        #contents03 img:first-child {
+            margin-left: 3%;
+        }
+        #contents03 img:last-child {
+            margin-left: 3%;
+        }
+        
+        #contents03 spanx img:last-child {
+            margin-left: 0;
+        }
+        #contents03 spanx img {
+            float: right;
+            margin: -40px 0 0 0;
+            margin-left: 3%;
+            width: 50px;
+        }
+        
+        
+
+        
+        
+        
+        
+
+       #portfolio #video04 {
+            position: relative;
+            border-top: 2px solid #000;
+            _border-bottom: 2px solid #000;
+        }
+        #portfolio .title04 {
+            font: 50px/1.0 Italiana;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+        
+        #video03 .title04 {
+            float: left;
+            margin-left: 2%;}
+        #video04:after {content: ''; display: block; clear: both;}
+        #video04 img {width: 200px; position: absolute; top: 20px; right: 20px; opacity: 0; transition:  0.5s;}
+        #video04:hover img {opacity: 0; transition: 1s;}
+        #video04:hover {background: #fff;}
+        
+        #contents04 iframe {
+            float: none;
+            width: 459px;
+            height: 270px;
+            display: block;
+            margin: 20px auto;
+        }
+        #contents04:after {content: ''; display: block; clear: both;}
+        .comment04:after {content: ''; display: block; clear: both;}
+        
+        #contents04 .comment04 {
+            position: relative;
+            max-width: 80%;
+            margin: 0 auto 70px;
+            font: 17px/1.6 Noto Sans KR;
+        }
+        
+        .comment04 span {
+            position: absolute;
+            bottom: 0;
+            display: none;
+        }
+        .comment04 spanx {
+            display: contents;   
+        }
+        
+        #contents04 img {
+            float: left;
+            width: 45.5%;
+            margin: 0 0 70px;
+        }
+            
+        #contents04 .shorts1 {display: none;}
+        #contents04 .shorts2 {display: none;}
+        #contents04 .shorts3 {display: none;}
+        #contents04 .shorts4 {display: none;}
+            
+        #contents04 .shorts5 {display: none;}
+        #contents04 .shorts6 {display: none;}
+        #contents04 .shorts7 {display: none;}
+        #contents04 .shorts8 {display: none;}
+            
+        #contents04 .shorts9 {display: contents;}
+        #contents04 .shorts10 {display: contents;}
+        #contents04 .shorts11 {display: contents;}
+        #contents04 .shorts12 {display: contents;}
+            
+        
+
+        
+            
+        #shorts {max-width: 96%; margin: 0 auto; padding-left: 1.8%; text-align: center;}
+        #shorts h1 {font: 80px/1.0 Italiana; margin-top: -50px; margin-bottom: 50px;}
+        #shots ul {max-width: 92%;}
+        #shorts img {
+            float: left;
+            width: 48%;
+            _margin-top: 2%;
+            margin-right: 2%;
+            margin-bottom: 20px;
+        }
+            
+        #shorts .shorts1 {display: none;}
+        #shorts .shorts2 {display: none;}
+        #shorts .shorts3 {display: none;}
+        #shorts .shorts4 {display: none;}
+        
+        #shorts .shorts5 {display: none;}
+        #shorts .shorts6 {display: none;}
+        #shorts .shorts7 {display: none;}
+        #shorts .shorts8 {display: none;}
+            
+        #shorts .shorts9 {display: contents;}
+        #shorts .shorts10 {display: contents;}
+        #shorts .shorts11 {display: contents;}
+        #shorts .shorts12 {display: contents;}
+            
+        #shorts img:hover {_transform: scale(1.02); opacity: 0.8; transition: 0.2s;}
+        
+        #shorts ul li:last-child {
+            margin-right: 0%;
+        }
+        #shorts:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+  
+            
+
+        #contact {max-width: 100%; margin: 0px auto; text-align: center;}
+        #contact h1 {font: 55px/1.0 Italiana; margin-top: -20px; margin-bottom: 15px;}
+        #contact li {font: 90px/1.0 Italiana;}
+
+        
+            
+            
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    </style>
+    
+    
+
+<!--        --------------------------  스크립트  -------------------------------------->
+    <script>
+        $(function(){
+            $("#video01").click(function(){
+                $("#portfolio #contents01").slideToggle();
+            });
+        });
+        
+        $(function(){
+            $("#video02").click(function(){
+                $("#portfolio #contents02").slideToggle();
+            });
+        });
+        
+        $(function(){
+            $("#video03").click(function(){
+                $("#portfolio #contents03").slideToggle();
+            });
+        });
+        
+        $(function(){
+            $("#video04").click(function(){
+                $("#portfolio #contents04").slideToggle();
+            });
+        });
+        
+        
+        $(document).ready(function(){
+            $(".levis1").colorbox({rel:'levis1', innerWidth:900, innerHeight:520});
+            $(".levis2").colorbox({rel:'levis2', innerWidth:900, innerHeight:520});
+            $(".levis3").colorbox({rel:'levis3', innerWidth:900, innerHeight:520});
+            $(".levis4").colorbox({rel:'levis4', innerWidth:900, innerHeight:520});
+        });
+        
+        $(document).ready(function(){
+            $(".levis5").colorbox({rel:'levis5', innerWidth:697, innerHeight:410});
+            $(".levis6").colorbox({rel:'levis6', innerWidth:697, innerHeight:410});
+            $(".levis7").colorbox({rel:'levis7', innerWidth:697, innerHeight:410});
+            $(".levis8").colorbox({rel:'levis8', innerWidth:697, innerHeight:410});
+        });
+        
+        $(document).ready(function(){
+            $(".levis9").colorbox({rel:'levis9', innerWidth:425, innerHeight:250});
+            $(".levis10").colorbox({rel:'levis10', innerWidth:425, innerHeight:250});
+            $(".levis11").colorbox({rel:'levis11', innerWidth:425, innerHeight:250});
+            $(".levis12").colorbox({rel:'levis12', innerWidth:425, innerHeight:250});
+        });
+        
+//        ----------------------------------------------------------------------------
+        
+        
+        $(document).ready(function(){
+            $(".pl1").colorbox({rel:'pl1', innerWidth:900, innerHeight:520});
+            $(".pl2").colorbox({rel:'pl2', innerWidth:900, innerHeight:520});
+            $(".pl3").colorbox({rel:'pl3', innerWidth:900, innerHeight:520});
+            $(".pl4").colorbox({rel:'pl4', innerWidth:900, innerHeight:520});
+        });
+        
+        $(document).ready(function(){
+            $(".pl5").colorbox({rel:'pl5', innerWidth:697, innerHeight:410});
+            $(".pl6").colorbox({rel:'pl6', innerWidth:697, innerHeight:410});
+            $(".pl7").colorbox({rel:'pl7', innerWidth:697, innerHeight:410});
+            $(".pl8").colorbox({rel:'pl8', innerWidth:697, innerHeight:410});
+        });
+        
+        $(document).ready(function(){
+            $(".pl9").colorbox({rel:'pl9', innerWidth:425, innerHeight:250});
+            $(".pl10").colorbox({rel:'pl10', innerWidth:425, innerHeight:250});
+            $(".pl11").colorbox({rel:'pl11', innerWidth:425, innerHeight:250});
+            $(".pl12").colorbox({rel:'pl12', innerWidth:425, innerHeight:250});
+        });
+        
+//        ----------------------------------------------------------------------------
+        
+        
+        $(document).ready(function(){
+            $(".xiumin1").colorbox({rel:'xiumin1', innerWidth:900, innerHeight:520});
+            $(".xiumin2").colorbox({rel:'xiumin2', innerWidth:900, innerHeight:520});
+            $(".xiumin3").colorbox({rel:'xiumin3', innerWidth:900, innerHeight:520});
+            $(".xiumin4").colorbox({rel:'xiumin4', innerWidth:900, innerHeight:520});
+        });
+        
+        $(document).ready(function(){
+            $(".xiumin5").colorbox({rel:'xiumin5', innerWidth:697, innerHeight:410});
+            $(".xiumin6").colorbox({rel:'xiumin6', innerWidth:697, innerHeight:410});
+            $(".xiumin7").colorbox({rel:'xiumin7', innerWidth:697, innerHeight:410});
+            $(".xiumin8").colorbox({rel:'xiumin8', innerWidth:697, innerHeight:410});
+        });
+        
+        $(document).ready(function(){
+            $(".xiumin9").colorbox({rel:'xiumin9', innerWidth:425, innerHeight:250});
+            $(".xiumin10").colorbox({rel:'xiumin10', innerWidth:425, innerHeight:250});
+            $(".xiumin11").colorbox({rel:'xiumin11', innerWidth:425, innerHeight:250});
+            $(".xiumin12").colorbox({rel:'xiumin12', innerWidth:425, innerHeight:250});
+        });
+        
+//        ----------------------------------------------------------------------------
+        
+        
+        
+        $(document).ready(function(){
+            $(".shorts1").colorbox({iframe:true, innerWidth:900, innerHeight:506});
+            $(".shorts2").colorbox({iframe:true, innerWidth:900, innerHeight:506});
+            $(".shorts3").colorbox({iframe:true, innerWidth:900, innerHeight:506});
+            $(".shorts4").colorbox({iframe:true, innerWidth:900, innerHeight:506});
+        });
+        
+        $(document).ready(function(){
+            $(".shorts5").colorbox({iframe:true, innerWidth:697, innerHeight:410});
+            $(".shorts6").colorbox({iframe:true, innerWidth:697, innerHeight:410});
+            $(".shorts7").colorbox({iframe:true, innerWidth:697, innerHeight:410});
+            $(".shorts8").colorbox({iframe:true, innerWidth:697, innerHeight:410});
+        });
+        
+        $(document).ready(function(){
+            $(".shorts9").colorbox({iframe:true, innerWidth:425, innerHeight:250});
+            $(".shorts10").colorbox({iframe:true, innerWidth:425, innerHeight:250});
+            $(".shorts11").colorbox({iframe:true, innerWidth:425, innerHeight:250});
+            $(".shorts12").colorbox({iframe:true, innerWidth:425, innerHeight:250});
+        });
+        
+        
+    
+    </script>
+    
+    
+    
+</head>
+
+
+
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------------------------------------------------->
+<!--       ------------------------이 위는 레이아웃---------------------------------->
+<!--       ------------------------- 여기서부터는 ---------------------------------->
+<!--       --------------------------  내용  ---------------------------------->
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------------------------------------------------->
+
+
+
+<body>
+   
+    <div id="wrap">
+    
+<!--       --------------------------상단 아이콘---------------------------------->
+        <div id="top_bar">
+            <ul class="top_left">
+                <li><a href="information.html"><i class="fas fa-bars"></i></a></li>
+            </ul>
+            <ul class="top_right">
+<!--
+                <li><a href="">portfolio</a></li>
+                <li><a href="">contact</a></li>
+-->
+                <li><a href="https://blog.naver.com/etudiant16"><i class="fas fa-bold"></i></a></li>
+                <li><a href="#toBottom"><i class="far fa-envelope"></i></a></li>
+            </ul>
+        </div>
+<!--        -------------------------------------------------------------------->
+       
+       
+       
+       
+       
+<!--       --------------------------대문짝 이름---------------------------------->
+         <div id="name">
+            <p>Kim</p>
+            <p>Jeonghwa</p>
+        </div>
+<!--        -------------------------------------------------------------------->
+       
+       
+       
+       
+       
+<!--        -------------------------사진과 소개---------------------------------->
+          <div id="profile">
+<!--              <img src="img/profile_Deep.png" alt="">-->
+              <ul>
+                  <li><p><span>"</span>&nbsp;&nbsp;<span>"</span></p></li>
+                  <li><p>&nbsp;서양화를 전공하고 영상분야에 지원하게 된 김정화입니다. <br> 대학교 3학년 때 전공과목으로 있던 영상 수업을 듣고 흥미를 느껴서 영상에 대한 <br>관심이 생겼습니다. 그림을 그리면서 기른 감각과 표현력을 영상으로써 확장시켜보고자 <br>도전하게 되었고 이 분야를 정말 깊게 공부해보고 싶다는 확고한 다짐과 열정을 <br>가지고 있습니다. 아직은 시작 단계라 두렵기도 하지만 미적인 것에 대한 욕심과 <br>긍정적인 에너지가 감각적이고 창의적인 모션그래퍼로 성장하게 할 것입니다.</p></li>
+              </ul>
+          </div>
+<!--        -------------------------------------------------------------------->
+      
+      
+      
+      
+          <div id="portfolio">
+<!--        -------------------------첫 번째 영상---------------------------------->
+              <div id="video01">
+                <div class="title01">01 Levi's Brand Promo</div>
+                <img src="img/Levi's_brand%20promotion%20(0-00-00-28).jpg" alt="Levi's Brand Promo">
+            </div>
+            <ul id="contents01">
+                <li class="iframe"><iframe z-index="1" src="https://www.youtube.com/embed/1f2QK7eOswA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                <li class="comment01">
+                    <span>
+                        <p>&nbsp;&nbsp;청바지가 떠오르는 블루를 메인으로 리바이스 브랜드 로고의 레드컬러를 사용하여 포인트를 주었습니다. 블루, 민트, 레드의 조화로 생동감 있는 브랜드 이미지를 표현하고자 했습니다. 여유로운 음악의 매력을 살려주는 여름을 컨셉으로 디자인하였습니다. 브랜드 아이덴티티를 잊지 않으면서 새로운 컨셉을 전달하도록 노력하였습니다. <br><br><br>소요시간: 48시간</p>
+                        <img src="img/01_co_1.png" class="c1 co0101">
+                        <img src="img/01_co_2.png" class="c1 co0102">
+                        <img src="img/01_co_3.png" class="c1 co0103">
+                    </span>
+                    <spanx>
+                        <p>&nbsp;&nbsp;청바지가 떠오르는 블루를 메인으로 리바이스 브랜드 로고의 레드컬러를 사용하여 포인트를 주었습니다. 블루, 민트, 레드의 조화로 생동감 있는 브랜드 이미지를 표현하고자 했습니다. 여유로운 음악의 매력을 살려주는 여름을 컨셉으로 디자인하였습니다. 브랜드 아이덴티티를 잊지 않으면서 새로운 컨셉을 전달하도록 노력하였습니다. <br><br><br>소요시간: 48시간</p>
+                        <img src="img/01_co_3.png" class="c1 co0103">
+                        <img src="img/01_co_2.png" class="c1 co0102">
+                        <img src="img/01_co_1.png" class="c1 co0101">
+                    </spanx>
+                </li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-00-28).jpg" class="levis1"><img src="img/Levi's_brand%20promotion%20(0-00-00-28).jpg" alt=""></a></li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-07-22).jpg" class="levis2"><img src="img/Levi's_brand%20promotion%20(0-00-07-22).jpg" alt=""></a></li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-09-26).jpg" class="levis3"><img src="img/Levi's_brand%20promotion%20(0-00-09-26).jpg" alt=""></a></li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-15-16).jpg" class="levis4"><img src="img/Levi's_brand%20promotion%20(0-00-15-16).jpg" alt=""></a></li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-00-28).jpg" class="levis5"><img src="img/Levi's_brand%20promotion%20(0-00-00-28).jpg" alt=""></a></li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-07-22).jpg" class="levis6"><img src="img/Levi's_brand%20promotion%20(0-00-07-22).jpg" alt=""></a></li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-09-26).jpg" class="levis7"><img src="img/Levi's_brand%20promotion%20(0-00-09-26).jpg" alt=""></a></li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-15-16).jpg" class="levis8"><img src="img/Levi's_brand%20promotion%20(0-00-15-16).jpg" alt=""></a></li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-00-28).jpg" class="levis9"><img src="img/Levi's_brand%20promotion%20(0-00-00-28).jpg" alt=""></a></li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-07-22).jpg" class="levis10"><img src="img/Levi's_brand%20promotion%20(0-00-07-22).jpg" alt=""></a></li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-09-26).jpg" class="levis11"><img src="img/Levi's_brand%20promotion%20(0-00-09-26).jpg" alt=""></a></li>
+                <li><a href="img/Levi's_brand%20promotion%20(0-00-15-16).jpg" class="levis12"><img src="img/Levi's_brand%20promotion%20(0-00-15-16).jpg" alt=""></a></li>
+            </ul>
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------두 번째 영상---------------------------------->
+            <div id="video02">
+                <div class="title02">02 PL Promotion Video</div>
+                <img src="img/PL%20(0-00-04-04).jpg" alt="PL Promotion Video">
+            </div>
+            <ul id="contents02">
+                <iframe src="https://www.youtube.com/embed/RzM66_G6o9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <li class="comment02">
+                    <span>
+                        <p>&nbsp;&nbsp;프리미어리그의 테마 컬러를 그대로 살려 어울리는 이미지를 구성하였습니다. 애프터 이펙트를 처음 다뤄 본 작품이라 시간이 다소 걸렸지만 타이밍과 리듬감에 대한 감각을 익히는 데 많은 도움이 되었습니다. 빠르게 움직이는 이미지들의 연결성과 배경 음악과 흐름을 맞추는 것을 중요하게 생각하였습니다. <br><br><br>소요시간: 50시간</p>
+                        <img src="img/02_co_1.png" class="c2 co0201">
+                        <img src="img/02_co_2.png" class="c2 co0202">
+                        <img src="img/02_co_3.png" class="c2 co0203">
+<!--                        <img src="img/02_co_4.png" class="c2 co0203">-->
+                    </span>
+                    <spanx>
+                        <p>&nbsp;&nbsp;프리미어리그의 테마 컬러를 그대로 살려 어울리는 이미지를 구성하였습니다. 애프터 이펙트를 처음 다뤄 본 작품이라 시간이 다소 걸렸지만 타이밍과 리듬감에 대한 감각을 익히는 데 많은 도움이 되었습니다. 빠르게 움직이는 이미지들의 연결성과 배경 음악과 흐름을 맞추는 것을 중요하게 생각하였습니다. <br><br><br>소요시간: 50시간</p>
+                        <img src="img/02_co_3.png" class="c2 co0203">
+                        <img src="img/02_co_2.png" class="c2 co0202">
+                        <img src="img/02_co_1.png" class="c2 co0201">
+<!--                        <img src="img/02_co_4.png" class="c2 co0203">-->
+                    </spanx>
+                </li>
+                <li><a href="img/PL%20(0-00-13-13).jpg" class="pl1"><img src="img/PL%20(0-00-13-13).jpg" alt=""></a></li>
+                <li><a href="img/PL%20(0-00-30-12).jpg" class="pl2"><img src="img/PL%20(0-00-30-12).jpg" alt=""></a></li>
+                <li><a href="img/PL%20(0-00-20-06).jpg" class="pl3"><img src="img/PL%20(0-00-20-06).jpg" alt=""></a></li>
+                <li><a href="img/PL%20(0-00-31-04).jpg" class="pl4"><img src="img/PL%20(0-00-31-04).jpg" alt=""></a></li>
+                <li><a href="img/PL%20(0-00-13-13).jpg" class="pl5"><img src="img/PL%20(0-00-13-13).jpg" alt=""></a></li>
+                <li><a href="img/PL%20(0-00-30-12).jpg" class="pl6"><img src="img/PL%20(0-00-30-12).jpg" alt=""></a></li>
+                <li><a href="img/PL%20(0-00-20-06).jpg" class="pl7"><img src="img/PL%20(0-00-20-06).jpg" alt=""></a></li>
+                <li><a href="img/PL%20(0-00-31-04).jpg" class="pl8"><img src="img/PL%20(0-00-31-04).jpg" alt=""></a></li>
+                <li><a href="img/PL%20(0-00-13-13).jpg" class="pl9"><img src="img/PL%20(0-00-13-13).jpg" alt=""></a></li>
+                <li><a href="img/PL%20(0-00-30-12).jpg" class="pl10"><img src="img/PL%20(0-00-30-12).jpg" alt=""></a></li>
+                <li><a href="img/PL%20(0-00-20-06).jpg" class="pl11"><img src="img/PL%20(0-00-20-06).jpg" alt=""></a></li>
+                <li><a href="img/PL%20(0-00-31-04).jpg" class="pl12"><img src="img/PL%20(0-00-31-04).jpg" alt=""></a></li>
+            </ul>
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------세 번째 영상---------------------------------->
+           <div id="video03">
+                <div class="title03">03 CTA_Birthday</div>
+                <img src="img/happy_xiumin_day%20(0-00-01-07).jpg" alt="CTA_birthday">
+            </div>
+            <ul id="contents03">
+                <iframe src="https://www.youtube.com/embed/5OmQZqGoDZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <li class="comment03">
+                    <span>
+                        <p>&nbsp;&nbsp;보이그룹 'EXO'의 멤버 '시우민'의 생일 프로모션 영상입니다. 평소에 아티스트의 세계관과 이미지를 잘 알고 있었기 때문에 인물과 잘 어울릴 수 있는 컬러 컨셉을 지정하였습니다. 차분하고 섬세한 이미지가 연상되도록 그레이시블루와 따뜻한 브라운 컬러 매치하였습니다. <br><br><br>소요시간: 6시간</p>
+<!--                        <p>소요시간: 6시간</p>-->
+                        <img src="img/03_co_1.png" class="c3 co0301">
+                        <img src="img/03_co_2.png" class="c3 co0302">
+                        <img src="img/03_co_3.png" class="c3 co0303">
+                    </span>
+                    <spanx>
+                        <p>&nbsp;&nbsp;보이그룹 'EXO'의 멤버 '시우민'의 생일 프로모션 영상입니다. 평소에 아티스트의 세계관과 이미지를 잘 알고 있었기 때문에 인물과 잘 어울릴 수 있는 컬러 컨셉을 지정하였습니다. 차분하고 섬세한 이미지가 연상되도록 그레이시블루와 따뜻한 브라운 컬러 매치하였습니다. <br><br><br>소요시간: 6시간</p>
+<!--                        <p>소요시간: 6시간</p>-->
+                        <img src="img/03_co_3.png" class="c3 co0303">
+                        <img src="img/03_co_2.png" class="c3 co0302">
+                        <img src="img/03_co_1.png" class="c3 co0301">
+                    </spanx>
+                </li>
+                <li><a href="img/happy_xiumin_day%20(0-00-01-07).jpg" class="xiumin1"><img src="img/happy_xiumin_day%20(0-00-01-07).jpg" alt=""></a></li>
+                <li><a href="img/happy_xiumin_day%20(0-00-24-14).jpg" class="xiumin2"><img src="img/happy_xiumin_day%20(0-00-24-14).jpg" alt=""></a></li>
+                <li><a href="img/happy_xiumin_day%20(0-00-28-15).jpg" class="xiumin3"><img src="img/happy_xiumin_day%20(0-00-28-15).jpg" alt=""></a></li>
+                <li><a href="img/happy_xiumin_day%20(0-00-38-05).jpg" class="xiumin4"><img src="img/happy_xiumin_day%20(0-00-38-05).jpg" alt=""></a></li>
+                <li><a href="img/happy_xiumin_day%20(0-00-01-07).jpg" class="xiumin5"><img src="img/happy_xiumin_day%20(0-00-01-07).jpg" alt=""></a></li>
+                <li><a href="img/happy_xiumin_day%20(0-00-24-14).jpg" class="xiumin6"><img src="img/happy_xiumin_day%20(0-00-24-14).jpg" alt=""></a></li>
+                <li><a href="img/happy_xiumin_day%20(0-00-28-15).jpg" class="xiumin7"><img src="img/happy_xiumin_day%20(0-00-28-15).jpg" alt=""></a></li>
+                <li><a href="img/happy_xiumin_day%20(0-00-38-05).jpg" class="xiumin8"><img src="img/happy_xiumin_day%20(0-00-38-05).jpg" alt=""></a></li>
+                <li><a href="img/happy_xiumin_day%20(0-00-01-07).jpg" class="xiumin9"><img src="img/happy_xiumin_day%20(0-00-01-07).jpg" alt=""></a></li>
+                <li><a href="img/happy_xiumin_day%20(0-00-24-14).jpg" class="xiumin10"><img src="img/happy_xiumin_day%20(0-00-24-14).jpg" alt=""></a></li>
+                <li><a href="img/happy_xiumin_day%20(0-00-28-15).jpg" class="xiumin11"><img src="img/happy_xiumin_day%20(0-00-28-15).jpg" alt=""></a></li>
+                <li><a href="img/happy_xiumin_day%20(0-00-38-05).jpg" class="xiumin12"><img src="img/happy_xiumin_day%20(0-00-38-05).jpg" alt=""></a></li>
+            </ul>
+         
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------네 번째 영상---------------------------------->
+           <div id="video04">
+                <div class="title04">0# Shorts Videos</div>
+                <img src="img/Evian%20from%20Alps%20(0-00-00-15).jpg" alt="Shorts Videos">
+            </div>
+            <ul id="contents04">
+                    <li><a href="https://www.youtube.com/embed/7hnJjr0mvps" class="shorts1"><img src="img/Evian%20from%20Alps%20(0-00-00-15).jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/embed/q-qE9aCQP3k" class="shorts2"><img src="img/toy_story%20(0-00-05-09).jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/embed/MK8gqQyHLrs" class="shorts3"><img src="img/Driver%20(0-00-01-10).jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/embed/cPKEuYKxnKc" class="shorts4"><img src="img/HOME%20OFFICE%20(0;00;07;08).jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/embed/7hnJjr0mvps" class="shorts5"><img src="img/Evian%20from%20Alps%20(0-00-00-15).jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/embed/q-qE9aCQP3k" class="shorts6"><img src="img/toy_story%20(0-00-05-09).jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/embed/MK8gqQyHLrs" class="shorts7"><img src="img/Driver%20(0-00-01-10).jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/embed/cPKEuYKxnKc" class="shorts8"><img src="img/HOME%20OFFICE%20(0;00;07;08).jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/embed/7hnJjr0mvps" class="shorts9"><img src="img/Evian%20from%20Alps%20(0-00-00-15).jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/embed/q-qE9aCQP3k" class="shorts10"><img src="img/toy_story%20(0-00-05-09).jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/embed/MK8gqQyHLrs" class="shorts11"><img src="img/Driver%20(0-00-01-10).jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/embed/cPKEuYKxnKc" class="shorts12"><img src="img/HOME%20OFFICE%20(0;00;07;08).jpg" alt=""></a></li>
+                </ul>
+<!--        -------------------------------------------------------------------->
+<!--        -------------------------다섯 번째 영상---------------------------------->
+           <div id="video05">
+                <div class="title05"></div>
+            </div>
+            
+<!--        -------------------------------------------------------------------->
+         
+         
+          </div>
+          
+<!--
+          <div id="shorts">
+              <h1>shorts</h1>
+              <ul>
+                  <li><a href="https://www.youtube.com/embed/7hnJjr0mvps" class="shorts1"><img src="img/Evian%20from%20Alps%20(0-00-00-15).jpg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/embed/q-qE9aCQP3k" class="shorts2"><img src="img/toy_story%20(0-00-05-09).jpg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/embed/MK8gqQyHLrs" class="shorts3"><img src="img/Driver%20(0-00-01-10).jpg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/embed/cPKEuYKxnKc" class="shorts4"><img src="img/HOME%20OFFICE%20(0;00;07;08).jpg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/embed/7hnJjr0mvps" class="shorts5"><img src="img/Evian%20from%20Alps%20(0-00-00-15).jpg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/embed/q-qE9aCQP3k" class="shorts6"><img src="img/toy_story%20(0-00-05-09).jpg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/embed/MK8gqQyHLrs" class="shorts7"><img src="img/Driver%20(0-00-01-10).jpg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/embed/cPKEuYKxnKc" class="shorts8"><img src="img/HOME%20OFFICE%20(0;00;07;08).jpg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/embed/7hnJjr0mvps" class="shorts9"><img src="img/Evian%20from%20Alps%20(0-00-00-15).jpg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/embed/q-qE9aCQP3k" class="shorts10"><img src="img/toy_story%20(0-00-05-09).jpg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/embed/MK8gqQyHLrs" class="shorts11"><img src="img/Driver%20(0-00-01-10).jpg" alt=""></a></li>
+                  <li><a href="https://www.youtube.com/embed/cPKEuYKxnKc" class="shorts12"><img src="img/HOME%20OFFICE%20(0;00;07;08).jpg" alt=""></a></li>
+              </ul>
+          </div>
+-->
+          
+<!--        -------------------------연락처---------------------------------->
+          <div id="contact">
+              <h1>more</h1>
+              <ul>
+                  <li><a href="information.html">Information</a></li>
+                  <li><a href="https://blog.naver.com/etudiant16">etudiant16 @naver.com</a></li>
+              </ul>
+          </div>
+<!--        -------------------------------------------------------------------->
+       
+        <a name="toBottom"></a>
+    </div>
+    
+    
+    
+</body>
+</html>
